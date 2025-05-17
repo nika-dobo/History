@@ -172,32 +172,32 @@ body header .nav a {
 body header .nav a:hover {
   font-size: 15px;
 }
-body .s-1 {
+body main .s-1 {
   background-color: #262c41;
 }
-body .s-1 div {
+body main .s-1 div {
   width: 100%;
   height: 500px;
   background-color: #1b1f2f;
   border-radius: 25px;
   overflow: hidden;
 }
-body .s-1 div video {
+body main .s-1 div video {
   margin-top: -100px;
 }
-body .s-2 {
+body main .s-2 {
   top: 100px;
   background-color: #262c41;
   height: 1800px;
   border-radius: 0px 0px 25px 25px;
 }
-body .s-2 .content {
+body main .s-2 .content {
   margin-bottom: 50px;
   display: flex;
   gap: 250px;
   justify-content: center;
 }
-body .s-2 .content .box {
+body main .s-2 .content .box {
   margin-top: 50px;
   width: 400px;
   height: 500px;
@@ -209,10 +209,10 @@ body .s-2 .content .box {
   overflow: hidden;
   gap: 15px;
 }
-body .s-2 .content .box img {
+body main .s-2 .content .box img {
   margin-top: -30px;
 }
-body .s-2 .content .box .button {
+body main .s-2 .content .box .button {
   z-index: 2;
   position: relative;
   padding: 10px 22px;
@@ -223,11 +223,11 @@ body .s-2 .content .box .button {
   background-color: #5d0ec4;
   transition: all 0.2s ease;
 }
-body .s-2 .content .box .button:active {
+body main .s-2 .content .box .button:active {
   transform: scale(0.96);
 }
-body .s-2 .content .box .button:before,
-body .s-2 .content .box .button:after {
+body main .s-2 .content .box .button:before,
+body main .s-2 .content .box .button:after {
   position: absolute;
   content: "";
   width: 150%;
@@ -237,7 +237,7 @@ body .s-2 .content .box .button:after {
   z-index: -1000;
   background-repeat: no-repeat;
 }
-body .s-2 .content .box .button:hover:before {
+body main .s-2 .content .box .button:hover:before {
   top: -70%;
   background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
@@ -256,7 +256,7 @@ body .s-2 .content .box .button:hover:before {
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
-body .s-2 .content .box .button:hover::after {
+body main .s-2 .content .box .button:hover::after {
   bottom: -70%;
   background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
@@ -274,6 +274,223 @@ body .s-2 .content .box .button:hover::after {
     background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
+}
+body main .map-s-1 .back {
+  width: 100%;
+  height: 750px;
+  background-color: #212636;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+body main .map-s-1 .back img {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+body main .map-s-1 .back .cauntry .c1 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 320px;
+  left: 765px;
+  background: rgb(255, 0, 0);
+  z-index: 4;
+  opacity: 0;
+  border-radius: 50%;
+}
+body main .map-s-1 .back .cauntry .c1-info {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background: #3b435c;
+  top: 130px;
+  left: 650px;
+  border: #2a2f3b 2px solid;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+body main .map-s-1 .back .cauntry .c1-info p {
+  padding: 0px 20px 0px 20px;
+}
+body main .map-s-1 .back .cauntry .c1:hover ~ .c1-info {
+  opacity: 1;
+}
+body main .map-s-1 .back .cauntry .c2 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 220px;
+  left: 465px;
+  background: rgb(255, 0, 0);
+  z-index: 4;
+  opacity: 0;
+  border-radius: 50%;
+}
+body main .map-s-1 .back .cauntry .c2-info {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background: #3b435c;
+  top: 150px;
+  left: 550px;
+  border: #2a2f3b 2px solid;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+body main .map-s-1 .back .cauntry .c2-info p {
+  padding: 0px 20px 0px 20px;
+}
+body main .map-s-1 .back .cauntry .c2:hover ~ .c2-info {
+  opacity: 1;
+}
+body main .map-s-1 .back .cauntry .c3 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 370px;
+  left: 435px;
+  background: rgb(255, 0, 0);
+  z-index: 4;
+  opacity: 0;
+  border-radius: 50%;
+}
+body main .map-s-1 .back .cauntry .c3-info {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background: #3b435c;
+  top: 150px;
+  left: 320px;
+  border: #2a2f3b 2px solid;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+body main .map-s-1 .back .cauntry .c3-info p {
+  padding: 0px 20px 0px 20px;
+}
+body main .map-s-1 .back .cauntry .c3:hover ~ .c3-info {
+  opacity: 1;
+}
+body main .map-s-1 .back .cauntry .c4 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 460px;
+  left: 535px;
+  background: rgb(255, 0, 0);
+  z-index: 4;
+  opacity: 0;
+  border-radius: 50%;
+}
+body main .map-s-1 .back .cauntry .c4-info {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background: #3b435c;
+  top: 240px;
+  left: 415px;
+  border: #2a2f3b 2px solid;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+body main .map-s-1 .back .cauntry .c4-info p {
+  padding: 0px 20px 0px 20px;
+}
+body main .map-s-1 .back .cauntry .c4:hover ~ .c4-info {
+  opacity: 1;
+}
+body main .map-s-1 .back .cauntry .c5 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 500px;
+  left: 805px;
+  background: rgb(255, 0, 0);
+  z-index: 4;
+  opacity: 0;
+  border-radius: 50%;
+}
+body main .map-s-1 .back .cauntry .c5-info {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background: #3b435c;
+  top: 290px;
+  left: 690px;
+  border: #2a2f3b 2px solid;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+body main .map-s-1 .back .cauntry .c5-info p {
+  padding: 0px 20px 0px 20px;
+}
+body main .map-s-1 .back .cauntry .c5:hover ~ .c5-info {
+  opacity: 1;
+}
+body main .map-s-1 .back .cauntry .c6 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 200px;
+  left: 955px;
+  background: rgb(255, 0, 0);
+  z-index: 4;
+  opacity: 0;
+  border-radius: 50%;
+}
+body main .map-s-1 .back .cauntry .c6-info {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background: #3b435c;
+  top: 140px;
+  left: 1030px;
+  border: #2a2f3b 2px solid;
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+body main .map-s-1 .back .cauntry .c6-info p {
+  padding: 0px 20px 0px 20px;
+}
+body main .map-s-1 .back .cauntry .c6:hover ~ .c6-info {
+  opacity: 1;
 }
 body footer {
   display: flex;
