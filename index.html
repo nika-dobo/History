@@ -9,10 +9,16 @@
     <title>AltHistory Museum</title>
 </head>
 
-<body>
+<body id="main-content">
+
+    <div id="video-overlay">
+        <video autoplay muted playsinline id="intro-video">
+            <source src="./video/portal.mp4" type="video/mp4">
+        </video>
+    </div>
 
     <header>
-        <img src="./img/logo.png" alt="logo" width="80px">
+        <a href="#"><img src="./img/logo.png" alt="logo" width="80px"></a>
         <input type="text" name="" id="" placeholder="Search">
         <div class="nav">
             <a href="#">Home</a>
@@ -23,7 +29,6 @@
     </header>
 
     <main>
-
         <section class="s-1">
             <div>
                 <video autoplay loop width="100%">
@@ -35,14 +40,24 @@
         <section class="s-2">
             <div class="content">
                 <div class="box">
-                    <img src="./img/time.png" width="100%">
+                    <img src="./img/time1.png" width="90%">
+                    <div class="clock">
+                        <div class="dot"></div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
                     <h2>1600 - 1700</h2>
                     <button class="button">
                         See More Information
                     </button>
                 </div>
                 <div class="box">
-                    <img src="./img/time.png" width="100%">
+                    <img src="./img/time1.png" width="90%">
+                    <div class="clock">
+                        <div class="dot"></div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
                     <h2>1800 - 1900</h2>
                     <button class="button">
                         See More Information
@@ -52,14 +67,24 @@
 
             <div class="content">
                 <div class="box">
-                    <img src="./img/time.png" width="100%">
+                    <img src="./img/time1.png" width="90%">
+                    <div class="clock">
+                        <div class="dot"></div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
                     <h2>2000 - 2200</h2>
                     <button class="button">
                         See More Information
                     </button>
                 </div>
                 <div class="box">
-                    <img src="./img/time.png" width="100%">
+                    <img src="./img/time1.png" width="90%">
+                    <div class="clock">
+                        <div class="dot"></div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
                     <h2>2300 - 2500</h2>
                     <button class="button">
                         See More Information
@@ -69,14 +94,24 @@
 
             <div class="content">
                 <div class="box">
-                    <img src="./img/time.png" width="100%">
+                    <img src="./img/time1.png" width="90%">
+                    <div class="clock">
+                        <div class="dot"></div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
                     <h2>2700 - 3000</h2>
                     <button class="button">
                         See More Information
                     </button>
                 </div>
                 <div class="box">
-                    <img src="./img/time.png" width="100%">
+                    <img src="./img/time1.png" width="90%">
+                    <div class="clock">
+                        <div class="dot"></div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
                     <h2>3200 - 3500</h2>
                     <button class="button">
                         See More Information
@@ -104,6 +139,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 
 </html>

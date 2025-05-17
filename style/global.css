@@ -139,10 +139,34 @@ a {
   text-decoration: none;
 }
 
-body {
+#main-content {
   background: #1b1f2f;
 }
-body header {
+#main-content #video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-content #video-overlay.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+#main-content #intro-video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#main-content header {
   z-index: 999;
   position: fixed;
   width: 100%;
@@ -153,7 +177,7 @@ body header {
   border-bottom: 1px #252b3f solid;
   background: #0f121c;
 }
-body header input {
+#main-content header input {
   width: 550px;
   height: 21px;
   text-align: center;
@@ -162,42 +186,42 @@ body header input {
   background: #464a57;
   color: #d1d5db;
 }
-body header .nav {
+#main-content header .nav {
   display: flex;
   gap: 20px;
 }
-body header .nav a {
+#main-content header .nav a {
   transition: 0.3s all;
 }
-body header .nav a:hover {
+#main-content header .nav a:hover {
   font-size: 15px;
 }
-body main .s-1 {
+#main-content main .s-1 {
   background-color: #262c41;
 }
-body main .s-1 div {
+#main-content main .s-1 div {
   width: 100%;
   height: 500px;
   background-color: #1b1f2f;
   border-radius: 25px;
   overflow: hidden;
 }
-body main .s-1 div video {
+#main-content main .s-1 div video {
   margin-top: -100px;
 }
-body main .s-2 {
+#main-content main .s-2 {
   top: 100px;
   background-color: #262c41;
   height: 1800px;
   border-radius: 0px 0px 25px 25px;
 }
-body main .s-2 .content {
+#main-content main .s-2 .content {
   margin-bottom: 50px;
   display: flex;
   gap: 250px;
   justify-content: center;
 }
-body main .s-2 .content .box {
+#main-content main .s-2 .content .box {
   margin-top: 50px;
   width: 400px;
   height: 500px;
@@ -209,10 +233,49 @@ body main .s-2 .content .box {
   overflow: hidden;
   gap: 15px;
 }
-body main .s-2 .content .box img {
-  margin-top: -30px;
+#main-content main .s-2 .content .box img {
+  margin-top: 10px;
 }
-body main .s-2 .content .box .button {
+#main-content main .s-2 .content .box .clock {
+  position: absolute;
+}
+#main-content main .s-2 .content .box .clock .dot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  top: 178px;
+  left: -6px;
+}
+#main-content main .s-2 .content .box .clock .line1 {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: black;
+  top: 86px;
+  left: 4px;
+  transform-origin: bottom left;
+  animation: time 3s linear infinite;
+}
+#main-content main .s-2 .content .box .clock .line2 {
+  position: absolute;
+  height: 50px;
+  border: 2px black solid;
+  top: 134px;
+  left: 2px;
+  transform-origin: bottom left;
+  animation: time 5s linear infinite;
+}
+@keyframes time {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#main-content main .s-2 .content .box .button {
   z-index: 2;
   position: relative;
   padding: 10px 22px;
@@ -223,11 +286,11 @@ body main .s-2 .content .box .button {
   background-color: #5d0ec4;
   transition: all 0.2s ease;
 }
-body main .s-2 .content .box .button:active {
+#main-content main .s-2 .content .box .button:active {
   transform: scale(0.96);
 }
-body main .s-2 .content .box .button:before,
-body main .s-2 .content .box .button:after {
+#main-content main .s-2 .content .box .button:before,
+#main-content main .s-2 .content .box .button:after {
   position: absolute;
   content: "";
   width: 150%;
@@ -237,7 +300,7 @@ body main .s-2 .content .box .button:after {
   z-index: -1000;
   background-repeat: no-repeat;
 }
-body main .s-2 .content .box .button:hover:before {
+#main-content main .s-2 .content .box .button:hover:before {
   top: -70%;
   background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
@@ -256,7 +319,7 @@ body main .s-2 .content .box .button:hover:before {
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
-body main .s-2 .content .box .button:hover::after {
+#main-content main .s-2 .content .box .button:hover::after {
   bottom: -70%;
   background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%), radial-gradient(circle, #7d2ae8 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
@@ -275,7 +338,7 @@ body main .s-2 .content .box .button:hover::after {
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
-body main .map-s-1 .back {
+#main-content main .map-s-1 .back {
   width: 100%;
   height: 750px;
   background-color: #212636;
@@ -283,12 +346,12 @@ body main .map-s-1 .back {
   display: flex;
   justify-content: center;
 }
-body main .map-s-1 .back img {
+#main-content main .map-s-1 .back img {
   margin-top: 100px;
   margin-bottom: 20px;
   border-radius: 20px;
 }
-body main .map-s-1 .back .cauntry .c1 {
+#main-content main .map-s-1 .back .cauntry .c1 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -299,7 +362,7 @@ body main .map-s-1 .back .cauntry .c1 {
   opacity: 0;
   border-radius: 50%;
 }
-body main .map-s-1 .back .cauntry .c1-info {
+#main-content main .map-s-1 .back .cauntry .c1-info {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -316,13 +379,13 @@ body main .map-s-1 .back .cauntry .c1-info {
   gap: 20px;
   text-align: center;
 }
-body main .map-s-1 .back .cauntry .c1-info p {
+#main-content main .map-s-1 .back .cauntry .c1-info p {
   padding: 0px 20px 0px 20px;
 }
-body main .map-s-1 .back .cauntry .c1:hover ~ .c1-info {
+#main-content main .map-s-1 .back .cauntry .c1:hover ~ .c1-info {
   opacity: 1;
 }
-body main .map-s-1 .back .cauntry .c2 {
+#main-content main .map-s-1 .back .cauntry .c2 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -333,7 +396,7 @@ body main .map-s-1 .back .cauntry .c2 {
   opacity: 0;
   border-radius: 50%;
 }
-body main .map-s-1 .back .cauntry .c2-info {
+#main-content main .map-s-1 .back .cauntry .c2-info {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -350,13 +413,13 @@ body main .map-s-1 .back .cauntry .c2-info {
   gap: 20px;
   text-align: center;
 }
-body main .map-s-1 .back .cauntry .c2-info p {
+#main-content main .map-s-1 .back .cauntry .c2-info p {
   padding: 0px 20px 0px 20px;
 }
-body main .map-s-1 .back .cauntry .c2:hover ~ .c2-info {
+#main-content main .map-s-1 .back .cauntry .c2:hover ~ .c2-info {
   opacity: 1;
 }
-body main .map-s-1 .back .cauntry .c3 {
+#main-content main .map-s-1 .back .cauntry .c3 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -367,7 +430,7 @@ body main .map-s-1 .back .cauntry .c3 {
   opacity: 0;
   border-radius: 50%;
 }
-body main .map-s-1 .back .cauntry .c3-info {
+#main-content main .map-s-1 .back .cauntry .c3-info {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -384,13 +447,13 @@ body main .map-s-1 .back .cauntry .c3-info {
   gap: 20px;
   text-align: center;
 }
-body main .map-s-1 .back .cauntry .c3-info p {
+#main-content main .map-s-1 .back .cauntry .c3-info p {
   padding: 0px 20px 0px 20px;
 }
-body main .map-s-1 .back .cauntry .c3:hover ~ .c3-info {
+#main-content main .map-s-1 .back .cauntry .c3:hover ~ .c3-info {
   opacity: 1;
 }
-body main .map-s-1 .back .cauntry .c4 {
+#main-content main .map-s-1 .back .cauntry .c4 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -401,7 +464,7 @@ body main .map-s-1 .back .cauntry .c4 {
   opacity: 0;
   border-radius: 50%;
 }
-body main .map-s-1 .back .cauntry .c4-info {
+#main-content main .map-s-1 .back .cauntry .c4-info {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -418,13 +481,13 @@ body main .map-s-1 .back .cauntry .c4-info {
   gap: 20px;
   text-align: center;
 }
-body main .map-s-1 .back .cauntry .c4-info p {
+#main-content main .map-s-1 .back .cauntry .c4-info p {
   padding: 0px 20px 0px 20px;
 }
-body main .map-s-1 .back .cauntry .c4:hover ~ .c4-info {
+#main-content main .map-s-1 .back .cauntry .c4:hover ~ .c4-info {
   opacity: 1;
 }
-body main .map-s-1 .back .cauntry .c5 {
+#main-content main .map-s-1 .back .cauntry .c5 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -435,7 +498,7 @@ body main .map-s-1 .back .cauntry .c5 {
   opacity: 0;
   border-radius: 50%;
 }
-body main .map-s-1 .back .cauntry .c5-info {
+#main-content main .map-s-1 .back .cauntry .c5-info {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -452,13 +515,13 @@ body main .map-s-1 .back .cauntry .c5-info {
   gap: 20px;
   text-align: center;
 }
-body main .map-s-1 .back .cauntry .c5-info p {
+#main-content main .map-s-1 .back .cauntry .c5-info p {
   padding: 0px 20px 0px 20px;
 }
-body main .map-s-1 .back .cauntry .c5:hover ~ .c5-info {
+#main-content main .map-s-1 .back .cauntry .c5:hover ~ .c5-info {
   opacity: 1;
 }
-body main .map-s-1 .back .cauntry .c6 {
+#main-content main .map-s-1 .back .cauntry .c6 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -469,7 +532,7 @@ body main .map-s-1 .back .cauntry .c6 {
   opacity: 0;
   border-radius: 50%;
 }
-body main .map-s-1 .back .cauntry .c6-info {
+#main-content main .map-s-1 .back .cauntry .c6-info {
   position: absolute;
   width: 300px;
   height: 200px;
@@ -486,28 +549,28 @@ body main .map-s-1 .back .cauntry .c6-info {
   gap: 20px;
   text-align: center;
 }
-body main .map-s-1 .back .cauntry .c6-info p {
+#main-content main .map-s-1 .back .cauntry .c6-info p {
   padding: 0px 20px 0px 20px;
 }
-body main .map-s-1 .back .cauntry .c6:hover ~ .c6-info {
+#main-content main .map-s-1 .back .cauntry .c6:hover ~ .c6-info {
   opacity: 1;
 }
-body footer {
+#main-content footer {
   display: flex;
   height: 100px;
   align-items: center;
   justify-content: space-between;
 }
-body footer .name {
+#main-content footer .name {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
-body footer .name p {
+#main-content footer .name p {
   padding-left: 10px;
 }
-body footer img {
+#main-content footer img {
   margin-right: 5px;
   cursor: pointer;
 }/*# sourceMappingURL=global.css.map */
