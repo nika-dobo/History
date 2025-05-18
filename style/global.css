@@ -901,6 +901,266 @@ a {
 #main-content .web4 .back button:active {
   transform: translateY(-1px);
 }
+#main-content .web5 {
+  width: 100%;
+  height: 700px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .web5 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 550px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .web5 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .web5 .back .return span {
+  position: relative;
+  left: -10px;
+  cursor: pointer;
+}
+#main-content .web5 .back a {
+  color: #d4af37;
+}
+#main-content .web5 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .web5 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .web5 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .web5 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .web5 .back button:active {
+  transform: translateY(-1px);
+}
+#main-content .web6 {
+  width: 100%;
+  height: 700px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .web6 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 550px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .web6 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .web6 .back .return span {
+  position: relative;
+  left: -100px;
+  cursor: pointer;
+}
+#main-content .web6 .back a {
+  color: #d4af37;
+}
+#main-content .web6 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .web6 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .web6 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .web6 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .web6 .back button:active {
+  transform: translateY(-1px);
+}
+#main-content .web7 {
+  width: 100%;
+  height: 700px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .web7 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 550px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .web7 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .web7 .back .return span {
+  position: relative;
+  left: -100px;
+  cursor: pointer;
+}
+#main-content .web7 .back a {
+  color: #d4af37;
+}
+#main-content .web7 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .web7 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .web7 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .web7 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .web7 .back button:active {
+  transform: translateY(-1px);
+}
+#main-content .web8 {
+  width: 100%;
+  height: 800px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .web8 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 650px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .web8 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .web8 .back .return span {
+  position: relative;
+  left: -100px;
+  cursor: pointer;
+}
+#main-content .web8 .back a {
+  color: #d4af37;
+}
+#main-content .web8 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .web8 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .web8 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .web8 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .web8 .back button:active {
+  transform: translateY(-1px);
+}
 #main-content footer {
   display: flex;
   height: 100px;
