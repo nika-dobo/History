@@ -604,7 +604,274 @@
       }
     }
   }
+  .web1 {
+    width: 100%;
+    height: 750px;
+    background: #2c1a2b;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    .back {
+      margin-top: 100px;
+      width: 50%;
+      height: 620px;
+      background-color: #2c1a1d;
+      border-radius: 20px;
+      border: #b87333 1px solid;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .return {
+        display: flex;
+        align-items: center;
+        span {
+          position: relative;
+          left: -180px;
+          cursor: pointer;
+        }
+      }
+      a {
+        color: #d4af37;
+      }
+      h1 {
+        font-size: 40px;
+        padding: 25px 0px;
+      }
+      p {
+        font-size: 20px;
+        padding: 15px;
+        padding-bottom: 20px;
+      }
+      button {
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
 
+      button:hover {
+        background-color: #5d0ec4;
+        box-shadow: 0px 15px 20px #3f019055;
+        color: #fff;
+        transform: translateY(-7px);
+      }
+
+      button:active {
+        transform: translateY(-1px);
+      }
+    }
+  }
+  .web2 {
+    width: 100%;
+    height: 810px;
+    background: #2c1a2b;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    .back {
+      margin-top: 100px;
+      width: 50%;
+      height: 690px;
+      background-color: #2c1a1d;
+      border-radius: 20px;
+      border: #b87333 1px solid;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .return {
+        display: flex;
+        align-items: center;
+        span {
+          position: relative;
+          left: -180px;
+          cursor: pointer;
+        }
+      }
+      a {
+        color: #d4af37;
+      }
+      h1 {
+        font-size: 40px;
+        padding: 25px 0px;
+      }
+      p {
+        font-size: 20px;
+        padding: 15px;
+        padding-bottom: 20px;
+      }
+      button {
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
+
+      button:hover {
+        background-color: #5d0ec4;
+        box-shadow: 0px 15px 20px #3f019055;
+        color: #fff;
+        transform: translateY(-7px);
+      }
+
+      button:active {
+        transform: translateY(-1px);
+      }
+    }
+  }
+  .web3 {
+    width: 100%;
+    height: 710px;
+    background: #2c1a2b;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    .back {
+      margin-top: 100px;
+      width: 50%;
+      height: 570px;
+      background-color: #2c1a1d;
+      border-radius: 20px;
+      border: #b87333 1px solid;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .return {
+        display: flex;
+        align-items: center;
+        span {
+          position: relative;
+          left: -30px;
+          cursor: pointer;
+        }
+      }
+      a {
+        color: #d4af37;
+      }
+      h1 {
+        font-size: 40px;
+        padding: 25px 0px;
+      }
+      p {
+        font-size: 20px;
+        padding: 15px;
+        padding-bottom: 20px;
+      }
+      button {
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
+
+      button:hover {
+        background-color: #5d0ec4;
+        box-shadow: 0px 15px 20px #3f019055;
+        color: #fff;
+        transform: translateY(-7px);
+      }
+
+      button:active {
+        transform: translateY(-1px);
+      }
+    }
+  }
+  .web4 {
+    width: 100%;
+    height: 800px;
+    background: #2c1a2b;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    .back {
+      margin-top: 100px;
+      width: 50%;
+      height: 670px;
+      background-color: #2c1a1d;
+      border-radius: 20px;
+      border: #b87333 1px solid;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .return {
+        display: flex;
+        align-items: center;
+        span {
+          position: relative;
+          left: 30px;
+          cursor: pointer;
+        }
+      }
+      a {
+        color: #d4af37;
+      }
+      h1 {
+        font-size: 40px;
+        padding: 25px 0px;
+      }
+      p {
+        font-size: 20px;
+        padding: 15px;
+        padding-bottom: 20px;
+      }
+      button {
+        padding: 1.3em 3em;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+      }
+
+      button:hover {
+        background-color: #5d0ec4;
+        box-shadow: 0px 15px 20px #3f019055;
+        color: #fff;
+        transform: translateY(-7px);
+      }
+
+      button:active {
+        transform: translateY(-1px);
+      }
+    }
+  }
   footer {
     display: flex;
     height: 100px;
