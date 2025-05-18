@@ -555,6 +555,31 @@ a {
 #main-content main .map-s-1 .back .cauntry .c6:hover ~ .c6-info {
   opacity: 1;
 }
+#main-content main .Chronicles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#main-content main .Chronicles h1 {
+  padding-top: 120px;
+}
+#main-content main .Chronicles div {
+  background: linear-gradient(180deg, #2c1a1d, #474e93);
+  width: 60%;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main-content main .Chronicles div div {
+  width: 90%;
+  height: 3px;
+}
+#main-content main .Chronicles div p {
+  padding: 15px;
+}
 #main-content main .webs {
   width: 100%;
   height: 1300px;

@@ -468,6 +468,31 @@
         }
       }
     }
+    .Chronicles {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      h1 {
+        padding-top: 120px;
+      }
+      div {
+        background: linear-gradient(180deg, #2c1a1d, #474e93);
+        width: 60%;
+        border-radius: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div {
+          width: 90%;
+          height: 3px;
+        }
+        p {
+          padding: 15px;
+        }
+      }
+    }
     .webs {
       width: 100%;
       height: 1300px;
