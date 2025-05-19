@@ -93,7 +93,7 @@
           img {
             margin-top: 10px;
           }
-          .clock {
+          .clock1 {
             position: absolute;
             .dot {
               position: absolute;
@@ -112,7 +112,7 @@
               top: 86px;
               left: 4px;
               transform-origin: bottom left;
-              animation: time 3s linear infinite;
+              animation: time 8s linear infinite;
             }
             .line2 {
               position: absolute;
@@ -121,8 +121,209 @@
               top: 134px;
               left: 2px;
               transform-origin: bottom left;
-              animation: time 5s linear infinite;
+              animation: time 14s linear infinite;
             }
+
+            @keyframes time {
+              from {
+                transform: rotate(0deg);
+              }
+              to {
+                transform: rotate(360deg);
+              }
+            }
+          }
+          .clock2 {
+            position: absolute;
+            .dot {
+              position: absolute;
+              width: 15px;
+              height: 15px;
+              background: black;
+              border-radius: 50%;
+              top: 178px;
+              left: -6px;
+            }
+            .line1 {
+              position: absolute;
+              width: 4px;
+              height: 100px;
+              background: black;
+              top: 86px;
+              left: 4px;
+              transform-origin: bottom left;
+              animation: time 6s linear infinite;
+            }
+            .line2 {
+              position: absolute;
+              height: 50px;
+              border: 2px black solid;
+              top: 134px;
+              left: 2px;
+              transform-origin: bottom left;
+              animation: time 10s linear infinite;
+            }
+
+            @keyframes time {
+              from {
+                transform: rotate(0deg);
+              }
+              to {
+                transform: rotate(360deg);
+              }
+            }
+          }
+          .clock3 {
+            position: absolute;
+            .dot {
+              position: absolute;
+              width: 15px;
+              height: 15px;
+              background: black;
+              border-radius: 50%;
+              top: 178px;
+              left: -6px;
+            }
+            .line1 {
+              position: absolute;
+              width: 4px;
+              height: 100px;
+              background: black;
+              top: 86px;
+              left: 4px;
+              transform-origin: bottom left;
+              animation: time 4s linear infinite;
+            }
+            .line2 {
+              position: absolute;
+              height: 50px;
+              border: 2px black solid;
+              top: 134px;
+              left: 2px;
+              transform-origin: bottom left;
+              animation: time 8s linear infinite;
+            }
+
+            @keyframes time {
+              from {
+                transform: rotate(0deg);
+              }
+              to {
+                transform: rotate(360deg);
+              }
+            }
+          }
+          .clock4 {
+            position: absolute;
+            .dot {
+              position: absolute;
+              width: 15px;
+              height: 15px;
+              background: black;
+              border-radius: 50%;
+              top: 178px;
+              left: -6px;
+            }
+            .line1 {
+              position: absolute;
+              width: 4px;
+              height: 100px;
+              background: black;
+              top: 86px;
+              left: 4px;
+              transform-origin: bottom left;
+              animation: time 2.7s linear infinite;
+            }
+            .line2 {
+              position: absolute;
+              height: 50px;
+              border: 2px black solid;
+              top: 134px;
+              left: 2px;
+              transform-origin: bottom left;
+              animation: time 6.8s linear infinite;
+            }
+
+            @keyframes time {
+              from {
+                transform: rotate(0deg);
+              }
+              to {
+                transform: rotate(360deg);
+              }
+            }
+          }
+          .clock5 {
+            position: absolute;
+            .dot {
+              position: absolute;
+              width: 15px;
+              height: 15px;
+              background: black;
+              border-radius: 50%;
+              top: 178px;
+              left: -6px;
+            }
+            .line1 {
+              position: absolute;
+              width: 4px;
+              height: 100px;
+              background: black;
+              top: 86px;
+              left: 4px;
+              transform-origin: bottom left;
+              animation: time 1.5s linear infinite;
+            }
+            .line2 {
+              position: absolute;
+              height: 50px;
+              border: 2px black solid;
+              top: 134px;
+              left: 2px;
+              transform-origin: bottom left;
+              animation: time 3.5s linear infinite;
+            }
+
+            @keyframes time {
+              from {
+                transform: rotate(0deg);
+              }
+              to {
+                transform: rotate(360deg);
+              }
+            }
+          }
+          .clock6 {
+            position: absolute;
+            .dot {
+              position: absolute;
+              width: 15px;
+              height: 15px;
+              background: black;
+              border-radius: 50%;
+              top: 178px;
+              left: -6px;
+            }
+            .line1 {
+              position: absolute;
+              width: 4px;
+              height: 100px;
+              background: black;
+              top: 86px;
+              left: 4px;
+              transform-origin: bottom left;
+              animation: time 1s linear infinite;
+            }
+            .line2 {
+              position: absolute;
+              height: 50px;
+              border: 2px black solid;
+              top: 134px;
+              left: 2px;
+              transform-origin: bottom left;
+              animation: time 2s linear infinite;
+            }
+
             @keyframes time {
               from {
                 transform: rotate(0deg);
@@ -250,7 +451,7 @@
     .s-3 {
       top: 100px;
       background-color: #262c41;
-      height: 2520px;
+      height: 2630px;
       border-radius: 0px 0px 25px 25px;
       .full {
         padding-top: 120px;
@@ -261,8 +462,8 @@
           justify-content: center;
           .box {
             margin-top: 50px;
-            width: 400px;
-            height: 700px;
+            width: 450px;
+            height: 740px;
             background-color: #2d344f;
             border-radius: 20px;
             display: flex;
@@ -272,7 +473,7 @@
             overflow: hidden;
             text-align: center;
             gap: 15px;
-            h2{
+            h2 {
               padding: 0px 15px;
             }
             img {

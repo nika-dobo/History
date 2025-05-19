@@ -236,10 +236,10 @@ a {
 #main-content main .s-2 .content .box img {
   margin-top: 10px;
 }
-#main-content main .s-2 .content .box .clock {
+#main-content main .s-2 .content .box .clock1 {
   position: absolute;
 }
-#main-content main .s-2 .content .box .clock .dot {
+#main-content main .s-2 .content .box .clock1 .dot {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -248,7 +248,7 @@ a {
   top: 178px;
   left: -6px;
 }
-#main-content main .s-2 .content .box .clock .line1 {
+#main-content main .s-2 .content .box .clock1 .line1 {
   position: absolute;
   width: 4px;
   height: 100px;
@@ -256,16 +256,211 @@ a {
   top: 86px;
   left: 4px;
   transform-origin: bottom left;
-  animation: time 3s linear infinite;
+  animation: time 8s linear infinite;
 }
-#main-content main .s-2 .content .box .clock .line2 {
+#main-content main .s-2 .content .box .clock1 .line2 {
   position: absolute;
   height: 50px;
   border: 2px black solid;
   top: 134px;
   left: 2px;
   transform-origin: bottom left;
-  animation: time 5s linear infinite;
+  animation: time 14s linear infinite;
+}
+@keyframes time {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#main-content main .s-2 .content .box .clock2 {
+  position: absolute;
+}
+#main-content main .s-2 .content .box .clock2 .dot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  top: 178px;
+  left: -6px;
+}
+#main-content main .s-2 .content .box .clock2 .line1 {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: black;
+  top: 86px;
+  left: 4px;
+  transform-origin: bottom left;
+  animation: time 6s linear infinite;
+}
+#main-content main .s-2 .content .box .clock2 .line2 {
+  position: absolute;
+  height: 50px;
+  border: 2px black solid;
+  top: 134px;
+  left: 2px;
+  transform-origin: bottom left;
+  animation: time 10s linear infinite;
+}
+@keyframes time {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#main-content main .s-2 .content .box .clock3 {
+  position: absolute;
+}
+#main-content main .s-2 .content .box .clock3 .dot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  top: 178px;
+  left: -6px;
+}
+#main-content main .s-2 .content .box .clock3 .line1 {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: black;
+  top: 86px;
+  left: 4px;
+  transform-origin: bottom left;
+  animation: time 4s linear infinite;
+}
+#main-content main .s-2 .content .box .clock3 .line2 {
+  position: absolute;
+  height: 50px;
+  border: 2px black solid;
+  top: 134px;
+  left: 2px;
+  transform-origin: bottom left;
+  animation: time 8s linear infinite;
+}
+@keyframes time {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#main-content main .s-2 .content .box .clock4 {
+  position: absolute;
+}
+#main-content main .s-2 .content .box .clock4 .dot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  top: 178px;
+  left: -6px;
+}
+#main-content main .s-2 .content .box .clock4 .line1 {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: black;
+  top: 86px;
+  left: 4px;
+  transform-origin: bottom left;
+  animation: time 2.7s linear infinite;
+}
+#main-content main .s-2 .content .box .clock4 .line2 {
+  position: absolute;
+  height: 50px;
+  border: 2px black solid;
+  top: 134px;
+  left: 2px;
+  transform-origin: bottom left;
+  animation: time 6.8s linear infinite;
+}
+@keyframes time {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#main-content main .s-2 .content .box .clock5 {
+  position: absolute;
+}
+#main-content main .s-2 .content .box .clock5 .dot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  top: 178px;
+  left: -6px;
+}
+#main-content main .s-2 .content .box .clock5 .line1 {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: black;
+  top: 86px;
+  left: 4px;
+  transform-origin: bottom left;
+  animation: time 1.5s linear infinite;
+}
+#main-content main .s-2 .content .box .clock5 .line2 {
+  position: absolute;
+  height: 50px;
+  border: 2px black solid;
+  top: 134px;
+  left: 2px;
+  transform-origin: bottom left;
+  animation: time 3.5s linear infinite;
+}
+@keyframes time {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#main-content main .s-2 .content .box .clock6 {
+  position: absolute;
+}
+#main-content main .s-2 .content .box .clock6 .dot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+  top: 178px;
+  left: -6px;
+}
+#main-content main .s-2 .content .box .clock6 .line1 {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: black;
+  top: 86px;
+  left: 4px;
+  transform-origin: bottom left;
+  animation: time 1s linear infinite;
+}
+#main-content main .s-2 .content .box .clock6 .line2 {
+  position: absolute;
+  height: 50px;
+  border: 2px black solid;
+  top: 134px;
+  left: 2px;
+  transform-origin: bottom left;
+  animation: time 2s linear infinite;
 }
 @keyframes time {
   from {
@@ -341,7 +536,7 @@ a {
 #main-content main .s-3 {
   top: 100px;
   background-color: #262c41;
-  height: 2520px;
+  height: 2630px;
   border-radius: 0px 0px 25px 25px;
 }
 #main-content main .s-3 .full {
@@ -355,8 +550,8 @@ a {
 }
 #main-content main .s-3 .full .content .box {
   margin-top: 50px;
-  width: 400px;
-  height: 700px;
+  width: 450px;
+  height: 740px;
   background-color: #2d344f;
   border-radius: 20px;
   display: flex;
