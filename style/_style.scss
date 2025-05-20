@@ -816,6 +816,67 @@
           }
         }
       }
+      .about-map {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin-top: -20px;
+        justify-content: center;
+        align-items: center;
+        .button {
+          position: relative;
+          width: 120px;
+          height: 40px;
+          background-color: #000;
+          display: flex;
+          align-items: center;
+          color: white;
+          flex-direction: column;
+          justify-content: center;
+          border: none;
+          padding: 12px;
+          gap: 12px;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+        .button::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          left: -4px;
+          top: -1px;
+          margin: auto;
+          width: 128px;
+          height: 48px;
+          border-radius: 10px;
+          background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+          z-index: -10;
+          pointer-events: none;
+          transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .button::after {
+          content: "";
+          z-index: -1;
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+          transform: translate3d(0, 0, 0) scale(0.95);
+          filter: blur(20px);
+        }
+
+        .button:hover::after {
+          filter: blur(30px);
+        }
+
+        .button:hover::before {
+          transform: rotate(-180deg);
+        }
+
+        .button:active::before {
+          scale: 0.7;
+        }
+      }
     }
     .Chronicles {
       display: flex;
@@ -2788,7 +2849,7 @@
       }
     }
   }
-.exhibits2 {
+  .exhibits2 {
     width: 100%;
     height: 800px;
     background: #2c1a2b;
@@ -2855,7 +2916,7 @@
       }
     }
   }
-.exhibits3 {
+  .exhibits3 {
     width: 100%;
     height: 840px;
     background: #2c1a2b;
@@ -2922,7 +2983,7 @@
       }
     }
   }
-.exhibits4 {
+  .exhibits4 {
     width: 100%;
     height: 880px;
     background: #2c1a2b;
@@ -3123,11 +3184,142 @@
       }
     }
   }
+  .anim-map {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .map {
+      background: #00dade31;
+      width: 80%;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      animation: sea 2s 1 forwards;
+      animation-delay: 3.3s;
+      .country {
+        position: absolute;
+      }
+      .c1 {
+        top: 100px;
+        left: 240px;
+        animation: island-move1 2s 1 forwards;
+        animation-delay: 3s;
+      }
+      .c2 {
+        left: 200px;
+        animation: island-move2 2s 1 forwards;
+        animation-delay: 3s;
+      }
+      .c3 {
+        top: 400px;
+        left: 270px;
+        animation: island-move3 2s 1 forwards;
+        animation-delay: 3s;
+      }
+      .c4 {
+        top: 330px;
+        right: 280px;
+        animation: island-move4 2s 1 forwards;
+        animation-delay: 3s;
+      }
+      .c5 {
+        top: 100px;
+        animation: island-move5 2s 1 forwards;
+        animation-delay: 3s;
+      }
+      .c6 {
+        top: 180px;
+        right: 200px;
+        animation: island-move6 2s 1 forwards;
+        animation-delay: 3s;
+      }
+      @keyframes island-move1 {
+        0% {
+        }
+        100% {
+          top: 228px;
+          left: 478px;
+        }
+      }
+      @keyframes island-move2 {
+        0% {
+        }
+        100% {
+          left: 478px;
+        }
+      }
+      @keyframes island-move3 {
+        0% {
+        }
+        100% {
+          top: 230px;
+          left: 478px;
+        }
+      }
+      @keyframes island-move4 {
+        0% {
+        }
+        100% {
+          right: 480px;
+          top: 230px;
+        }
+      }
+      @keyframes island-move5 {
+        0% {
+        }
+        100% {
+          top: 230px;
+        }
+      }
+      @keyframes island-move6 {
+        0% {
+        }
+        100% {
+          right: 480px;
+          top: 230px;
+        }
+      }
+      @keyframes sea {
+        0% {
+        }
+        100% {
+          width: 50%;
+          height: 550px;
+        }
+      }
+    }
+  }
   footer {
     display: flex;
     height: 100px;
     align-items: center;
     justify-content: space-between;
+    .name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      p {
+        padding-left: 10px;
+      }
+    }
+    img {
+      margin-right: 5px;
+      cursor: pointer;
+    }
+  }
+  .f-2 {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background: #161925;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -20px;
     .name {
       display: flex;
       flex-direction: column;
