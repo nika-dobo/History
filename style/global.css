@@ -3120,35 +3120,35 @@ a {
 #main-content .anim-map .map .c1 {
   top: 100px;
   left: 240px;
-  animation: island-move1 2s 1 forwards;
+  animation: island-move1 2s 1 forwards linear;
   animation-delay: 3s;
 }
 #main-content .anim-map .map .c2 {
   left: 200px;
-  animation: island-move2 2s 1 forwards;
+  animation: island-move2 2s 1 forwards linear;
   animation-delay: 3s;
 }
 #main-content .anim-map .map .c3 {
   top: 400px;
   left: 270px;
-  animation: island-move3 2s 1 forwards;
+  animation: island-move3 2s 1 forwards linear;
   animation-delay: 3s;
 }
 #main-content .anim-map .map .c4 {
   top: 330px;
   right: 280px;
-  animation: island-move4 2s 1 forwards;
+  animation: island-move4 2s 1 forwards linear;
   animation-delay: 3s;
 }
 #main-content .anim-map .map .c5 {
   top: 100px;
-  animation: island-move5 2s 1 forwards;
+  animation: island-move5 2s 1 forwards linear;
   animation-delay: 3s;
 }
 #main-content .anim-map .map .c6 {
   top: 180px;
   right: 200px;
-  animation: island-move6 2s 1 forwards;
+  animation: island-move6 2s 1 forwards linear;
   animation-delay: 3s;
 }
 @keyframes island-move1 {
