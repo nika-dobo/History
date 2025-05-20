@@ -3231,4 +3231,26 @@ a {
 #main-content .f-2 img {
   margin-right: 5px;
   cursor: pointer;
+}
+#main-content .f-3 {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  background: #161925;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 40px;
+}
+#main-content .f-3 .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+#main-content .f-3 .name p {
+  padding-left: 10px;
+}
+#main-content .f-3 img {
+  margin-right: 5px;
+  cursor: pointer;
 }/*# sourceMappingURL=global.css.map */
