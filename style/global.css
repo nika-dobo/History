@@ -2649,6 +2649,396 @@ a {
 #main-content .web24 .back button:active {
   transform: translateY(-1px);
 }
+#main-content .exhibits1 {
+  width: 100%;
+  height: 900px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .exhibits1 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 750px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .exhibits1 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .exhibits1 .back .return span {
+  position: relative;
+  left: -100px;
+  cursor: pointer;
+}
+#main-content .exhibits1 .back a {
+  color: #d4af37;
+}
+#main-content .exhibits1 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .exhibits1 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .exhibits1 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .exhibits1 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .exhibits1 .back button:active {
+  transform: translateY(-1px);
+}
+#main-content .exhibits2 {
+  width: 100%;
+  height: 800px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .exhibits2 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 650px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .exhibits2 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .exhibits2 .back .return span {
+  position: relative;
+  left: -100px;
+  cursor: pointer;
+}
+#main-content .exhibits2 .back a {
+  color: #d4af37;
+}
+#main-content .exhibits2 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .exhibits2 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .exhibits2 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .exhibits2 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .exhibits2 .back button:active {
+  transform: translateY(-1px);
+}
+#main-content .exhibits3 {
+  width: 100%;
+  height: 840px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .exhibits3 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 690px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .exhibits3 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .exhibits3 .back .return span {
+  position: relative;
+  left: -100px;
+  cursor: pointer;
+}
+#main-content .exhibits3 .back a {
+  color: #d4af37;
+}
+#main-content .exhibits3 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .exhibits3 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .exhibits3 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .exhibits3 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .exhibits3 .back button:active {
+  transform: translateY(-1px);
+}
+#main-content .exhibits4 {
+  width: 100%;
+  height: 880px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .exhibits4 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 730px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .exhibits4 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .exhibits4 .back .return span {
+  position: relative;
+  left: -20px;
+  cursor: pointer;
+}
+#main-content .exhibits4 .back a {
+  color: #d4af37;
+}
+#main-content .exhibits4 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .exhibits4 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .exhibits4 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .exhibits4 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .exhibits4 .back button:active {
+  transform: translateY(-1px);
+}
+#main-content .exhibits5 {
+  width: 100%;
+  height: 780px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .exhibits5 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 630px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .exhibits5 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .exhibits5 .back .return span {
+  position: relative;
+  left: -100px;
+  cursor: pointer;
+}
+#main-content .exhibits5 .back a {
+  color: #d4af37;
+}
+#main-content .exhibits5 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .exhibits5 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .exhibits5 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .exhibits5 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .exhibits5 .back button:active {
+  transform: translateY(-1px);
+}
+#main-content .exhibits6 {
+  width: 100%;
+  height: 930px;
+  background: #2c1a2b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+#main-content .exhibits6 .back {
+  margin-top: 100px;
+  width: 50%;
+  height: 780px;
+  background-color: #2c1a1d;
+  border-radius: 20px;
+  border: #b87333 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main-content .exhibits6 .back .return {
+  display: flex;
+  align-items: center;
+}
+#main-content .exhibits6 .back .return span {
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+}
+#main-content .exhibits6 .back a {
+  color: #d4af37;
+}
+#main-content .exhibits6 .back h1 {
+  font-size: 40px;
+  padding: 25px 0px;
+}
+#main-content .exhibits6 .back p {
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+#main-content .exhibits6 .back button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+#main-content .exhibits6 .back button:hover {
+  background-color: #5d0ec4;
+  box-shadow: 0px 15px 20px rgba(63, 1, 144, 0.3333333333);
+  color: #fff;
+  transform: translateY(-7px);
+}
+#main-content .exhibits6 .back button:active {
+  transform: translateY(-1px);
+}
 #main-content footer {
   display: flex;
   height: 100px;
